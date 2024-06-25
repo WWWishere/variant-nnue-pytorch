@@ -2,22 +2,25 @@ RANKS = 8
 FILES = 8
 SQUARES = RANKS * FILES
 KING_SQUARES = 64
-PIECE_TYPES = 13
+PIECE_TYPES = 16
 PIECES = 2 * PIECE_TYPES
-USE_POCKETS = True
+USE_POCKETS = False
 POCKETS = 2 * FILES if USE_POCKETS else 0
 
 PIECE_VALUES = {
-  1: 126,
-  2: 781,
-  3: 825,
-  4: 1276,
-  5: 2538,
-  6: 450,
-  7: 1950,
-  8: 2150,
-  9: 600,
-  10: 500,
-  11: 1600,
-  12: 900,
+  1: 781,
+  2: 825,
+  3: 1276,
+  4: 2538,
+  5: 2300,
+  6: 200,
+  7: 121,
+  8: 670,
+  9: 245,
+  10: 152,
+  11: 309,
+  12: 1203,
+  13: 796,
+  14: 1203,
+  15: 1265,
 }
